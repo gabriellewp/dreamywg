@@ -14,8 +14,14 @@ services:
     #     PWD: /backend # no idea why pwd is not working
     #   command:
     #     pm2-runtime debug.config.js # debug mode for local compose
-    # seba-frontend:
-    #   build: . # should be frontend's dockerfile
+    seba-frontend:
+      build: seba_sose2019_frontend/
+      ports:
+        - 80:80
+      volumes:
+        - seba_sose2019_frontend/:/
+      # depends_on:
+      #   - seba-backend
     mongodb:
       image: mongo:3.6-jessie
       environment:
