@@ -1,3 +1,6 @@
 [submodule "seba_sose2019_backend"]
 	path = seba_sose2019_backend
 	url = git@github.com:StefanDenn3r/seba_sose2019_backend.git
+[submodule "seba_sose2019_frontend"]
+	path = seba_sose2019_frontend
+	url = git@github.com:aqidd/seba_sose2019_frontend.git
