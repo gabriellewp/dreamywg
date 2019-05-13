@@ -1,5 +1,4 @@
 # Master Course TUM SEBA SoSe2019
-# residence matching system
 
 The goal of this project is to provide matching system between house owner, property and house seeker.
 
