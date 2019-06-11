@@ -15,11 +15,13 @@ services:
     #   command:
     #     pm2-runtime debug.config.js # debug mode for local compose
     seba-frontend:
-      build: seba_sose2019_frontend/
+      build: 
+        context: ./seba_sose2019_frontend
+        dockerfile: Dockerfile
       ports:
         - 80:80
       volumes:
-        - seba_sose2019_frontend/:/
+        - ./seba_sose2019_frontend:/app
       # depends_on:
       #   - seba-backend
     mongodb:
