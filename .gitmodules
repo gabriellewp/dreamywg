@@ -1,0 +1,8 @@
+[submodule "seba_sose2019_backend"]
+	path = seba_sose2019_backend
+	url = https://github.com/StefanDenn3r/seba_sose2019_backend.git
+	branch = master
+[submodule "seba_sose2019_frontend"]
+	path = seba_sose2019_frontend
+	url = https://github.com/aqidd/seba_sose2019_frontend.git
+	branch = feature/docker-setup
