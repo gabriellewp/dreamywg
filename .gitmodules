@@ -1,8 +1,6 @@
-[submodule "seba_sose2019_backend"]
-	path = seba_sose2019_backend
-	url = https://github.com/StefanDenn3r/seba_sose2019_backend.git
-	branch = master
-[submodule "seba_sose2019_frontend"]
-	path = seba_sose2019_frontend
-	url = https://github.com/aqidd/seba_sose2019_frontend.git
-	branch = master
+[submodule "dreamywg_frontend"]
+	path = dreamywg_frontend
+	url = git@github.com:aqidd/dreamywg_frontend.git
+[submodule "dreamywg_backend"]
+	path = dreamywg_backend
+	url = git@github.com:StefanDenn3r/dreamywg_backend.git
